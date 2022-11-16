@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Påminnelser</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Påminnelser</string>
+    <string name="second_fragment_label">Ny</string>
+    <string name="next">Ny</string>
+    <string name="previous">Tillbaks</string>
+
+    <string name="hello_first_fragment">Påminnelser</string>
+    <string name="hello_second_fragment">Lägg till ny påminnelse</string>
+    <string name="todo">TODO</string>
+    <string name="Add">Lägg till</string>
+    <string name="title">Titel</string>
+    <string name="date">Datum</string>
+    <string name="time">Tid</string>
+    <string name="description">Beskrivning</string>
+    <string name="where">Vart</string>
+</resources>

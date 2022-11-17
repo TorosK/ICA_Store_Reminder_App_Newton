@@ -2,11 +2,7 @@ package com.example.icastorereminderappnewton;
 
 import android.os.Bundle;
 
-import com.google.android.material.snackbar.Snackbar;
-
 import androidx.appcompat.app.AppCompatActivity;
-
-import android.view.View;
 
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
@@ -14,11 +10,20 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 import com.example.icastorereminderappnewton.databinding.ActivityMainBinding;
+import com.google.android.material.textfield.TextInputEditText;
 
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
+
+import java.sql.Time;
+import java.util.Date;
 
 public class MainActivity extends AppCompatActivity {
+
+
 
     private AppBarConfiguration appBarConfiguration;
     private ActivityMainBinding binding;
@@ -29,6 +34,8 @@ public class MainActivity extends AppCompatActivity {
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+
+
 
         setSupportActionBar(binding.toolbar);
 
